@@ -209,7 +209,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100 dart=0 keepsyms=1 -no_compat_check slide=0 -lilubetaall</string>
+		<string>-v debug=0x100 dart=0 keepsyms=1 -no_compat_check -lilubetaall</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
@@ -801,47 +801,12 @@
 		<false/>
 		<key>FakeCPUID</key>
 		<string>0x0806ED</string>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-		</array>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
 		<false/>
-		<key>KernelToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14 Release kernel</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>igKEwHRC</data>
-				<key>MaskFind</key>
-				<data>////////</data>
-				<key>MaskReplace</key>
-				<data>AAAAAP8A</data>
-				<key>MatchOS</key>
-				<string>10.14</string>
-				<key>Replace</key>
-				<data>igKEwOtC</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.13 Release kernel</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>igKEwHRE</data>
-				<key>MatchOS</key>
-				<string>10.13</string>
-				<key>Replace</key>
-				<data>igKEwOtE</data>
-			</dict>
-		</array>
 		<key>KernelXCPM</key>
 		<false/>
 		<key>PanicNoKextDump</key>
