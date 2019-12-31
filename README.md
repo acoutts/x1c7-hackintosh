@@ -1,6 +1,6 @@
 # macOS on Lenovo Thinkpad X1 Carbon 7th Generation, Model 20R1
 
-This is a work-in-progress attempting to boot macOS on the Lenovo X1C7.
+This is a work-in-progress attempting to boot macOS 10.15 Catalina on the Lenovo X1C7.
 
 WiFi is soldered in the X1C7 so I am attempting to run a compatible card (BCM94350ZAE) in the available WWAN m.2 slot.
 

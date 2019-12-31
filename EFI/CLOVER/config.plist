@@ -127,59 +127,6 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>Add _SUN property for GIGE</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>UFhTWAhfQURSAAhfUFJXEgYC</data>
-					<key>Replace</key>
-					<data>UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R0ZYMA==</data>
-					<key>Replace</key>
-					<data>SUdQVQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HDEF to AZAL</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>SERFRg==</data>
-					<key>Replace</key>
-					<data>QVpBTA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename oem _DSM to ZDSM</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X0RTTQ==</data>
-					<key>Replace</key>
-					<data>WkRTTQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>SEVDSQ==</data>
-					<key>Replace</key>
-					<data>SU1FSQ==</data>
-				</dict>
-			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -212,11 +159,6 @@
 		<true/>
 		<key>HaltEnabler</key>
 		<true/>
-		<key>RenameDevices</key>
-		<dict>
-			<key>#_SB.PCI0.RP01.PXSX</key>
-			<string>ARPT</string>
-		</dict>
 		<key>SSDT</key>
 		<dict>
 			<key>#C3Latency</key>
@@ -850,9 +792,9 @@
 			</dict>
 		</array>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<true/>
 		<key>DellSMBIOSPatch</key>
@@ -868,7 +810,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -903,7 +845,7 @@
 		<key>KernelXCPM</key>
 		<false/>
 		<key>PanicNoKextDump</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
