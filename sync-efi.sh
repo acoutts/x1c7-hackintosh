@@ -1,2 +1,2 @@
-rm -rf /Volumes/EFI/EFI/*
-cp -r ./EFI /Volumes/EFI/
+rm -rf /Volumes/CLOVER/EFI/*
+cp -r ./EFI /Volumes/CLOVER/EFI/
