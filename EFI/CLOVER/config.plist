@@ -862,17 +862,23 @@
 		<key>AppleIntelCPUPM</key>
 		<true/>
 		<key>AppleRTC</key>
-		<false/>
+		<true/>
 		<key>Debug</key>
 		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
+		<key>FakeCPUID</key>
+		<string>0x0806EC</string>
+		<key>ForceKextsToLoad</key>
+		<array>
+			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
+		</array>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -914,7 +920,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3E7</string>
+		<string>0x067</string>
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
@@ -1040,15 +1046,17 @@
 		<key>#Version</key>
 		<string>1.0</string>
 		<key>BoardSerialNumber</key>
-		<string>C028487014NJH4RFB</string>
+		<string>C02953401GUHWVPCB</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02XRFYBJHCC</string>
+		<string>C02ZXTZ8HV29</string>
 		<key>SmUUID</key>
-		<string>B8B9A645-B25E-41D6-B37D-640CE3D92C20</string>
+		<string>E5A8488F-3B04-4A21-9247-C78645A57CF6</string>
+		<key>Trust</key>
+		<true/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
