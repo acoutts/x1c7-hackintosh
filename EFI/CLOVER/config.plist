@@ -6,22 +6,72 @@
 	<dict>
 		<key>DSDT</key>
 		<dict>
+			<key>Debug</key>
+			<true/>
 			<key>DropOEM_DSM</key>
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddDTGP</key>
+				<true/>
+				<key>AddHDMI</key>
+				<true/>
+				<key>AddIMEI</key>
+				<true/>
+				<key>AddMCHC</key>
+				<true/>
+				<key>AddPNLF</key>
+				<true/>
+				<key>DeleteUnused</key>
+				<true/>
+				<key>FakeLPC</key>
+				<true/>
+				<key>FixACST</key>
+				<true/>
+				<key>FixADP1</key>
+				<true/>
+				<key>FixAirport</key>
+				<true/>
+				<key>FixDarwin</key>
+				<true/>
+				<key>FixDarwin7</key>
+				<true/>
+				<key>FixDisplay</key>
+				<true/>
+				<key>FixFirewire</key>
+				<true/>
+				<key>FixHDA</key>
+				<true/>
 				<key>FixHPET</key>
+				<true/>
+				<key>FixIDE</key>
 				<true/>
 				<key>FixIPIC</key>
 				<true/>
+				<key>FixIntelGfx</key>
+				<true/>
+				<key>FixLAN</key>
+				<true/>
+				<key>FixMutex</key>
+				<true/>
 				<key>FixRTC</key>
 				<true/>
+				<key>FixRegions</key>
+				<true/>
+				<key>FixS3D</key>
+				<true/>
+				<key>FixSATA</key>
+				<true/>
+				<key>FixSBUS</key>
+				<true/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<true/>
 				<key>FixUSB</key>
-				<false/>
+				<true/>
+				<key>FixWAK</key>
+				<true/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -31,7 +81,7 @@
 					<key>Comment</key>
 					<string>change APSS to APXX</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>QVBTUw==</data>
 					<key>Replace</key>
@@ -41,7 +91,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X0RTTQ==</data>
 					<key>Replace</key>
@@ -51,7 +101,7 @@
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>RUhDMQ==</data>
 					<key>Replace</key>
@@ -61,7 +111,7 @@
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>RUhDMg==</data>
 					<key>Replace</key>
@@ -91,7 +141,7 @@
 					<key>Comment</key>
 					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>U0FUMA==</data>
 					<key>Replace</key>
@@ -101,7 +151,7 @@
 					<key>Comment</key>
 					<string>change LPC to LPCB</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>TFBDXw==</data>
 					<key>Replace</key>
@@ -111,7 +161,7 @@
 					<key>Comment</key>
 					<string>change _REG to XREG in EC0</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1JFRwKgCw==</data>
 					<key>Replace</key>
@@ -121,7 +171,7 @@
 					<key>Comment</key>
 					<string>ALS: change Method(RALS,0,S) XALS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>UkFMUwA=</data>
 					<key>Replace</key>
@@ -164,7 +214,7 @@
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
