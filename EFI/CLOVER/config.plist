@@ -300,7 +300,7 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
