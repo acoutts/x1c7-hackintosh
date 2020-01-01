@@ -363,6 +363,8 @@
 				<data>SU9LaXM=</data>
 			</dict>
 		</array>
+		<key>FakeCPUID</key>
+		<string>0x0806EC</string>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
