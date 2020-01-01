@@ -1,0 +1,182 @@
+50:778  4:881  Found BIOS RSDP at F0140
+51:353  0:574  Printing ACPI tables from RSDP F0140 ...
+51:394  0:041   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+51:510  0:116    (Xsdt: B9B4C188, Rsdt: B9B4C0C4)
+51:538  0:027    B9B4C188: 'XSDT', 'TP-N2Q', Rev: 1, Len: 252
+51:625  0:086    B9B4C0C4: 'RSDT', 'TP-N2Q', Rev: 1, Len: 144
+51:711  0:085    Tables in Xsdt: 27
+51:738  0:027    0. B6A35000: 'FACP', 'TP-N2Q', Rev: 6, Len: 276
+51:828  0:089        (Dsdt: B6A08000, Facs: B9935000, XDsdt: B6A08000, XFacs: 0)
+51:914  0:085        B6A08000: 'DSDT', 'CFL', Rev: 2, Len: 166781
+52:004  0:090        B9935000: 'FACS', Ver: 2, Len: 64
+52:069  0:064    1. B6A88000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6986
+52:154  0:085    2. B6A87000: 'SSDT', 'CtdpB', Rev: 2, Len: 1441
+52:238  0:083    3. B6A4E000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15958
+52:325  0:087    4. B6A38000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066
+52:413  0:087    5. B6A36000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+52:497  0:084    6. B6A34000: 'HPET', 'TP-N2Q', Rev: 1, Len: 56
+52:581  0:083    7. B6A33000: 'APIC', 'TP-N2Q', Rev: 3, Len: 356
+52:667  0:085    8. B6A32000: 'MCFG', 'TP-N2Q', Rev: 1, Len: 60
+52:762  0:095    9. B6A31000: 'ECDT', 'TP-N2Q', Rev: 1, Len: 83
+52:847  0:084    10. B6A06000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7790
+52:931  0:084    11. B6A05000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36
+53:493  0:561    12. B6A03000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312
+54:036  0:542    13. B6A01000: 'NHLT', 'TP-N2Q', Rev: 0, Len: 6218
+54:136  0:100    14. B6A00000: 'BOOT', 'TP-N2Q', Rev: 1, Len: 40
+54:256  0:119    15. B69FE000: 'SLIC', 'TP-N2Q', Rev: 1, Len: 374
+54:367  0:111    16. B69FC000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830
+54:471  0:103    17. B69FB000: 'LPIT', 'TP-N2Q', Rev: 1, Len: 148
+54:584  0:112    18. B69FA000: 'WSMT', 'TP-N2Q', Rev: 1, Len: 40
+54:690  0:106    19. B69F8000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531
+54:803  0:112    20. B69F7000: 'DBGP', 'TP-N2Q', Rev: 1, Len: 52
+54:929  0:126    21. B69F6000: 'DBG2', 'TP-N2Q', Rev: 0, Len: 84
+55:048  0:118    22. B69F5000: 'MSDM', 'TP-N2Q', Rev: 3, Len: 85
+55:160  0:112    23. B6809000: 'BATB', 'TP-N2Q', Rev: 2, Len: 74
+55:277  0:116    24. B5003000: 'DMAR', 'TP-N2Q', Rev: 1, Len: 168
+55:394  0:117    25. B992F000: 'UEFI', 'TP-N2Q', Rev: 1, Len: 318
+55:510  0:116    26. B5002000: 'FPDT', 'TP-N2Q', Rev: 1, Len: 68
+55:623  0:112    Tables in Rsdt: 27
+55:657  0:034    0. B6A35000: 'FACP', 'TP-N2Q', Rev: 6, Len: 276
+55:766  0:108        (Dsdt: B6A08000, Facs: B9935000, XDsdt: B6A08000, XFacs: 0)
+55:894  0:128        B6A08000: 'DSDT', 'CFL', Rev: 2, Len: 166781
+56:007  0:112        B9935000: 'FACS', Ver: 2, Len: 64
+56:077  0:070    1. B6A88000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6986
+56:193  0:116    2. B6A87000: 'SSDT', 'CtdpB', Rev: 2, Len: 1441
+56:307  0:113    3. B6A4E000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15958
+56:410  0:103    4. B6A38000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066
+56:519  0:109    5. B6A36000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+56:642  0:122    6. B6A34000: 'HPET', 'TP-N2Q', Rev: 1, Len: 56
+56:752  0:110    7. B6A33000: 'APIC', 'TP-N2Q', Rev: 3, Len: 356
+56:855  0:102    8. B6A32000: 'MCFG', 'TP-N2Q', Rev: 1, Len: 60
+56:968  0:112    9. B6A31000: 'ECDT', 'TP-N2Q', Rev: 1, Len: 83
+57:085  0:116    10. B6A06000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7790
+57:194  0:109    11. B6A05000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36
+57:295  0:101    12. B6A03000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312
+57:396  0:100    13. B6A01000: 'NHLT', 'TP-N2Q', Rev: 0, Len: 6218
+57:497  0:101    14. B6A00000: 'BOOT', 'TP-N2Q', Rev: 1, Len: 40
+57:598  0:100    15. B69FE000: 'SLIC', 'TP-N2Q', Rev: 1, Len: 374
+57:698  0:100    16. B69FC000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830
+57:800  0:102    17. B69FB000: 'LPIT', 'TP-N2Q', Rev: 1, Len: 148
+57:907  0:106    18. B69FA000: 'WSMT', 'TP-N2Q', Rev: 1, Len: 40
+58:013  0:106    19. B69F8000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531
+58:562  0:548    20. B69F7000: 'DBGP', 'TP-N2Q', Rev: 1, Len: 52
+58:661  0:099    21. B69F6000: 'DBG2', 'TP-N2Q', Rev: 0, Len: 84
+58:772  0:110    22. B69F5000: 'MSDM', 'TP-N2Q', Rev: 3, Len: 85
+58:873  0:100    23. B6809000: 'BATB', 'TP-N2Q', Rev: 2, Len: 74
+58:971  0:098    24. B5003000: 'DMAR', 'TP-N2Q', Rev: 1, Len: 168
+59:077  0:106    25. B992F000: 'UEFI', 'TP-N2Q', Rev: 1, Len: 318
+59:202  0:124    26. B5002000: 'FPDT', 'TP-N2Q', Rev: 1, Len: 68
+59:310  0:108  Found UEFI Acpi 2.0 RSDP at B9B4E014
+59:342  0:032  Saving ACPI tables from RSDP B9B4E014 to EFI\CLOVER\ACPI\origin ...
+59:377  0:034   B9B4E014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+59:637  0:260    (Xsdt: B9B4C188, Rsdt: B9B4C0C4)
+59:673  0:035    B9B4C188: 'XSDT', 'TP-N2Q', Rev: 1, Len: 252 -> XSDT.aml
+59:900  0:227    B9B4C0C4: 'RSDT', 'TP-N2Q', Rev: 1, Len: 144 -> RSDT.aml
+60:135  0:235    Tables in Xsdt: 27
+60:174  0:038    0. B6A35000: 'FACP', 'TP-N2Q', Rev: 6, Len: 276 -> FACP.aml
+60:409  0:234        (Dsdt: B6A08000, Facs: B9935000, XDsdt: B6A08000, XFacs: 0)
+60:523  0:114        B6A08000: 'DSDT', 'CFL', Rev: 2, Len: 166781 -> DSDT.aml
+61:203  0:680        B9935000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+61:406  0:202    1. B6A88000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6986 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+61:632  0:225        * B875D098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1145  53 53 44 54 79 04 00 00 02 FA 50 6D 52 65 66 00 Internal length = 1145 -> SSDT-x0_0-Cpu0Ist.aml
+62:498  0:866        * B874E018: 'SSDT', 'ApIst', Rev: 2, Len: 1912  53 53 44 54 78 07 00 00 02 6A 50 6D 52 65 66 00 Internal length = 1912 -> SSDT-x0_1-ApIst.aml
+63:815  1:316        * B874C018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+64:669  0:854        * B874EA98: 'SSDT', 'ApCst', Rev: 2, Len: 970  53 53 44 54 CA 03 00 00 02 A6 50 6D 52 65 66 00 Internal length = 970 -> SSDT-x0_3-ApCst.aml
+65:429  0:760        * B875D898: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x0_4-Cpu0Hwp.aml
+66:186  0:756        * B875DB18: 'SSDT', 'ApHwp', Rev: 2, Len: 983  53 53 44 54 D7 03 00 00 02 28 50 6D 52 65 66 00 Internal length = 983 -> SSDT-x0_5-ApHwp.aml
+66:946  0:760        * B874F018: 'SSDT', 'HwpLvt', Rev: 2, Len: 3042  53 53 44 54 E2 0B 00 00 02 B0 50 6D 52 65 66 00 Internal length = 3042 -> SSDT-x0_6-HwpLvt.aml
+68:607  1:661        * B875D718: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+69:395  0:787        * B874D018: 'SSDT', 'ApPsd', Rev: 2, Len: 3444  53 53 44 54 74 0D 00 00 02 45 50 6D 52 65 66 00 Internal length = 3444 -> SSDT-x0_8-ApPsd.aml
+70:198  0:802  
+70:232  0:034    2. B6A87000: 'SSDT', 'CtdpB', Rev: 2, Len: 1441 -> SSDT-1-CtdpB.aml
+70:495  0:263    3. B6A4E000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15958 -> SSDT-2-DptfTabl.aml
+70:744  0:248    4. B6A38000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066 -> SSDT-3-SaSsdt.aml
+70:986  0:241    5. B6A36000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328 -> SSDT-4-PerfTune.aml
+71:219  0:233    6. B6A34000: 'HPET', 'TP-N2Q', Rev: 1, Len: 56 -> HPET.aml
+71:441  0:221    7. B6A33000: 'APIC', 'TP-N2Q', Rev: 3, Len: 356 -> APIC.aml
+71:660  0:219    8. B6A32000: 'MCFG', 'TP-N2Q', Rev: 1, Len: 60 -> MCFG.aml
+71:877  0:216    9. B6A31000: 'ECDT', 'TP-N2Q', Rev: 1, Len: 83 -> ECDT.aml
+72:095  0:217    10. B6A06000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7790 -> SSDT-5-WHL_Tbt_.aml
+72:315  0:219    11. B6A05000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36 -> SSDT-6-PID1Ssdt.aml
+72:982  0:666    12. B6A03000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312 -> SSDT-7-ProjSsdt.aml
+73:200  0:218    13. B6A01000: 'NHLT', 'TP-N2Q', Rev: 0, Len: 6218 -> NHLT.aml
+73:415  0:215    14. B6A00000: 'BOOT', 'TP-N2Q', Rev: 1, Len: 40 -> BOOT.aml
+73:631  0:215    15. B69FE000: 'SLIC', 'TP-N2Q', Rev: 1, Len: 374 -> SLIC.aml
+73:854  0:223    16. B69FC000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830 -> SSDT-8-UsbCTabl.aml
+74:076  0:221    17. B69FB000: 'LPIT', 'TP-N2Q', Rev: 1, Len: 148 -> LPIT.aml
+74:306  0:230    18. B69FA000: 'WSMT', 'TP-N2Q', Rev: 1, Len: 40 -> WSMT.aml
+74:523  0:216    19. B69F8000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531 -> SSDT-9-TbtTypeC.aml
+74:743  0:220    20. B69F7000: 'DBGP', 'TP-N2Q', Rev: 1, Len: 52 -> DBGP.aml
+75:402  0:658    21. B69F6000: 'DBG2', 'TP-N2Q', Rev: 0, Len: 84 -> DBG2.aml
+75:625  0:223    22. B69F5000: 'MSDM', 'TP-N2Q', Rev: 3, Len: 85 -> MSDM.aml
+75:847  0:221    23. B6809000: 'BATB', 'TP-N2Q', Rev: 2, Len: 74 -> BATB.aml
+76:078  0:230    24. B5003000: 'DMAR', 'TP-N2Q', Rev: 1, Len: 168 -> DMAR.aml
+76:303  0:224    25. B992F000: 'UEFI', 'TP-N2Q', Rev: 1, Len: 318 -> UEFI.aml
+76:547  0:244    26. B5002000: 'FPDT', 'TP-N2Q', Rev: 1, Len: 68 -> FPDT.aml
+76:782  0:235    Tables in Rsdt: 27
+76:823  0:040    0. B6A35000: 'FACP', 'TP-N2Q', Rev: 6, Len: 276
+76:926  0:103        (Dsdt: B6A08000, Facs: B9935000, XDsdt: B6A08000, XFacs: 0)
+77:034  0:108        B6A08000: 'DSDT', 'CFL', Rev: 2, Len: 166781
+77:157  0:122        B9935000: 'FACS', Ver: 2, Len: 64
+77:684  0:527    1. B6A88000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6986
+77:788  0:104    2. B6A87000: 'SSDT', 'CtdpB', Rev: 2, Len: 1441
+77:900  0:112    3. B6A4E000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15958
+78:019  0:118    4. B6A38000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066
+78:124  0:105    5. B6A36000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+78:257  0:132    6. B6A34000: 'HPET', 'TP-N2Q', Rev: 1, Len: 56
+78:364  0:107    7. B6A33000: 'APIC', 'TP-N2Q', Rev: 3, Len: 356
+78:470  0:106    8. B6A32000: 'MCFG', 'TP-N2Q', Rev: 1, Len: 60
+78:576  0:105    9. B6A31000: 'ECDT', 'TP-N2Q', Rev: 1, Len: 83
+78:685  0:109    10. B6A06000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7790
+78:805  0:120    11. B6A05000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36
+78:905  0:099    12. B6A03000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312
+79:014  0:109    13. B6A01000: 'NHLT', 'TP-N2Q', Rev: 0, Len: 6218
+79:125  0:110    14. B6A00000: 'BOOT', 'TP-N2Q', Rev: 1, Len: 40
+79:229  0:103    15. B69FE000: 'SLIC', 'TP-N2Q', Rev: 1, Len: 374
+79:332  0:103    16. B69FC000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830
+79:431  0:099    17. B69FB000: 'LPIT', 'TP-N2Q', Rev: 1, Len: 148
+79:531  0:099    18. B69FA000: 'WSMT', 'TP-N2Q', Rev: 1, Len: 40
+79:633  0:102    19. B69F8000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531
+79:734  0:101    20. B69F7000: 'DBGP', 'TP-N2Q', Rev: 1, Len: 52
+79:834  0:099    21. B69F6000: 'DBG2', 'TP-N2Q', Rev: 0, Len: 84
+79:938  0:103    22. B69F5000: 'MSDM', 'TP-N2Q', Rev: 3, Len: 85
+80:039  0:101    23. B6809000: 'BATB', 'TP-N2Q', Rev: 2, Len: 74
+80:141  0:101    24. B5003000: 'DMAR', 'TP-N2Q', Rev: 1, Len: 168
+80:241  0:099    25. B992F000: 'UEFI', 'TP-N2Q', Rev: 1, Len: 318
+80:341  0:099    26. B5002000: 'FPDT', 'TP-N2Q', Rev: 1, Len: 68
+80:444  0:103  Found UEFI Acpi 1.0 RSDP at B9B4E000
+80:476  0:032  Printing ACPI tables from RSDP B9B4E000 ...
+80:510  0:033   B9B4E000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+80:645  0:134    (Rsdt: B9B4C000)
+80:679  0:034    B9B4C000: 'RSDT', 'TP-N2Q', Rev: 1, Len: 144
+80:779  0:099    Tables in Rsdt: 27
+80:813  0:033    0. B6A35000: 'FACP', 'TP-N2Q', Rev: 6, Len: 276
+80:913  0:100        (Dsdt: B6A08000, Facs: B9935000, XDsdt: B6A08000, XFacs: 0)
+81:013  0:100        B6A08000: 'DSDT', 'CFL', Rev: 2, Len: 166781
+81:121  0:107        B9935000: 'FACS', Ver: 2, Len: 64
+81:188  0:067    1. B6A88000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6986
+81:293  0:104    2. B6A87000: 'SSDT', 'CtdpB', Rev: 2, Len: 1441
+81:395  0:102    3. B6A4E000: 'SSDT', 'DptfTabl', Rev: 2, Len: 15958
+81:502  0:106    4. B6A38000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066
+81:603  0:100    5. B6A36000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+82:148  0:545    6. B6A34000: 'HPET', 'TP-N2Q', Rev: 1, Len: 56
+82:249  0:101    7. B6A33000: 'APIC', 'TP-N2Q', Rev: 3, Len: 356
+82:349  0:099    8. B6A32000: 'MCFG', 'TP-N2Q', Rev: 1, Len: 60
+82:888  0:539    9. B6A31000: 'ECDT', 'TP-N2Q', Rev: 1, Len: 83
+82:994  0:105    10. B6A06000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7790
+83:102  0:107    11. B6A05000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36
+83:202  0:100    12. B6A03000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312
+83:301  0:098    13. B6A01000: 'NHLT', 'TP-N2Q', Rev: 0, Len: 6218
+83:409  0:108    14. B6A00000: 'BOOT', 'TP-N2Q', Rev: 1, Len: 40
+83:538  0:129    15. B69FE000: 'SLIC', 'TP-N2Q', Rev: 1, Len: 374
+83:642  0:103    16. B69FC000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830
+83:755  0:112    17. B69FB000: 'LPIT', 'TP-N2Q', Rev: 1, Len: 148
+83:862  0:107    18. B69FA000: 'WSMT', 'TP-N2Q', Rev: 1, Len: 40
+83:975  0:112    19. B69F8000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531
+84:074  0:099    20. B69F7000: 'DBGP', 'TP-N2Q', Rev: 1, Len: 52
+84:182  0:107    21. B69F6000: 'DBG2', 'TP-N2Q', Rev: 0, Len: 84
+84:297  0:115    22. B69F5000: 'MSDM', 'TP-N2Q', Rev: 3, Len: 85
+84:412  0:114    23. B6809000: 'BATB', 'TP-N2Q', Rev: 2, Len: 74
+84:511  0:098    24. B5003000: 'DMAR', 'TP-N2Q', Rev: 1, Len: 168
+84:617  0:106    25. B992F000: 'UEFI', 'TP-N2Q', Rev: 1, Len: 318
+84:728  0:110    26. B5002000: 'FPDT', 'TP-N2Q', Rev: 1, Len: 68
