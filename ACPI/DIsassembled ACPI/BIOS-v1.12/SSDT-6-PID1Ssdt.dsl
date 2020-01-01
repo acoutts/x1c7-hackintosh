@@ -20,3 +20,4 @@
  */
 DefinitionBlock ("", "SSDT", 2, "LENOVO", "PID1Ssdt", 0x00000010)
 {
+}

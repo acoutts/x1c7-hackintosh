@@ -1,26 +1,26 @@
-Firmware Error (ACPI): Failure looking up [^^GFX0.DRDY], AE_NOT_FOUND (20180427/dswload-498)
+// Firmware Error (ACPI): Failure looking up [^^GFX0.DRDY], AE_NOT_FOUND (20180427/dswload-498)
 // Invalid external declaration at AML offset 0x1568 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM], AE_NOT_FOUND (20180427/dswload-498)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM], AE_NOT_FOUND (20180427/dswload-498)
 // Invalid external declaration at AML offset 0x1576 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.SCND], AE_NOT_FOUND (20180427/dswload-498)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.SCND], AE_NOT_FOUND (20180427/dswload-498)
 // Invalid external declaration at AML offset 0x1584 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.MSTR], AE_NOT_FOUND (20180427/dswload-498)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.MSTR], AE_NOT_FOUND (20180427/dswload-498)
 // Invalid external declaration at AML offset 0x1592 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM.GTME], AE_NOT_FOUND (20180427/dswload-498)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM.GTME], AE_NOT_FOUND (20180427/dswload-498)
 // Invalid external declaration at AML offset 0x15a5 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.GTME], AE_NOT_FOUND (20180427/dswload-498)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.GTME], AE_NOT_FOUND (20180427/dswload-498)
 // Invalid external declaration at AML offset 0x15b8 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^GFX0.DRDY], AE_NOT_FOUND (20180427/dswload2-468)
+// Firmware Error (ACPI): Failure looking up [^^GFX0.DRDY], AE_NOT_FOUND (20180427/dswload2-468)
 // Invalid external declaration at AML offset 0x1568 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM], AE_NOT_FOUND (20180427/dswload2-468)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM], AE_NOT_FOUND (20180427/dswload2-468)
 // Invalid external declaration at AML offset 0x1576 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.SCND], AE_NOT_FOUND (20180427/dswload2-468)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.SCND], AE_NOT_FOUND (20180427/dswload2-468)
 // Invalid external declaration at AML offset 0x1584 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.MSTR], AE_NOT_FOUND (20180427/dswload2-468)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.MSTR], AE_NOT_FOUND (20180427/dswload2-468)
 // Invalid external declaration at AML offset 0x1592 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM.GTME], AE_NOT_FOUND (20180427/dswload2-468)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.PRIM.GTME], AE_NOT_FOUND (20180427/dswload2-468)
 // Invalid external declaration at AML offset 0x15a5 (see bz1397).
-Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.GTME], AE_NOT_FOUND (20180427/dswload2-468)
+// Firmware Error (ACPI): Failure looking up [^^SAT0.SCND.GTME], AE_NOT_FOUND (20180427/dswload2-468)
 // Invalid external declaration at AML offset 0x15b8 (see bz1397).
 /*
  * Intel ACPI Component Architecture
