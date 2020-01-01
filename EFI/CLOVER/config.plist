@@ -238,6 +238,10 @@
 			<key>Inject</key>
 			<false/>
 		</dict>
+		<key>SetIntelBacklight</key>
+		<false/>
+		<key>SetIntelMaxBacklight</key>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
