@@ -201,7 +201,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100 dart=0 keepsyms=1 -no_compat_check -lilubetaall GraphicsEnabler=No</string>
+		<string>-v debug=0x100 dart=0 keepsyms=1 -no_compat_check</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Debug</key>
@@ -602,8 +602,6 @@
 		</dict>
 		<key>#TextOnly</key>
 		<false/>
-		<key>EmbeddedThemeType</key>
-		<string>Dark</string>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>PlayAsync</key>
