@@ -160,11 +160,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>shikigva=1 -v dart=0 keepsyms=1 slide=0 -lilubetaall=#a -alcbeta</string>
+		<string>shikigva=1</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
-		<true/>
+		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
@@ -204,29 +204,21 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BAClPg==</data>
+				<data>AADAhw==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
 				<key>device-id</key>
-				<data>pT4AAA==</data>
-				<key>framebuffer-patch-enable</key>
+				<data>wIcAAA==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>#framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
+				<key>#framebuffer-fbmem</key>
 				<data>AACQAA==</data>
-				<key>framebuffer-stolenmem</key>
+				<key>#framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -238,10 +230,6 @@
 			<key>Inject</key>
 			<false/>
 		</dict>
-		<key>SetIntelBacklight</key>
-		<false/>
-		<key>SetIntelMaxBacklight</key>
-		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -281,11 +269,11 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Catalina</string>
+		<string></string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>ig-platform-id</key>
+		<key>#ig-platform-id</key>
 		<string>0x012345678</string>
 		<key>Inject</key>
 		<dict>
@@ -302,11 +290,11 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<false/>
-		<key>AppleRTC</key>
-		<false/>
-		<key>Debug</key>
 		<true/>
+		<key>AppleRTC</key>
+		<true/>
+		<key>Debug</key>
+		<false/>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
@@ -368,47 +356,29 @@
 				<key>Replace</key>
 				<data>SU9LaXM=</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.15.x</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>D4KnAwAA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.15.x</string>
-				<key>Name</key>
-				<string>AppleIntelCFLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>D4IAAAAA</data>
-			</dict>
 		</array>
-		<key>FakeCPUID</key>
-		<string>0x0806EC</string>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x00</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BoardSerialNumber</key>
-		<string>C02828501GUJH4R1F</string>
+		<string>XXXXXXXXXXXX</string>
 		<key>Mobile</key>
 		<true/>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>ProductName that matches your CPU</string>
 		<key>SerialNumber</key>
-		<string>C02X2HY0JHCC</string>
+		<string>XXXXXXXXXXXX</string>
 		<key>SmUUID</key>
-		<string>34AEE71A-F095-4B1F-B89C-6CC9970252B3</string>
+		<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
 		<key>Trust</key>
 		<false/>
 	</dict>
