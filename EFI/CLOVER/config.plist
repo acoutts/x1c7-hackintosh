@@ -160,11 +160,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>shikigva=1 -v igfxframe=0x59270009</string>
+		<string>-v</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
-		<false/>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
@@ -204,21 +204,27 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAWWQ==</data>
-				<key>#AAPL,slot-name</key>
-				<string>Internal</string>
+				<data>AACbPg==</data>
 				<key>device-id</key>
-				<data>WRYAAA==</data>
-				<key>#device_type</key>
-				<string>VGA compatible controller</string>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
-				<key>#framebuffer-patch-enable</key>
+				<data>mz4AAA==</data>
+				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>#framebuffer-fbmem</key>
-				<data>AAAAAA==</data>
-				<key>#framebuffer-stolenmem</key>
-				<data>AAAgAg==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-busid</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con0-type</key>
+				<data>AAQAAA==</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -300,7 +306,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
