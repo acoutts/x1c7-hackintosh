@@ -11,17 +11,17 @@
 			<key>Fixes</key>
 			<dict>
 				<key>FixHPET</key>
-				<false/>
+				<true/>
 				<key>FixIPIC</key>
-				<false/>
+				<true/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
-				<false/>
+				<true/>
 				<key>FixUSB</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -31,7 +31,7 @@
 					<key>Comment</key>
 					<string>change APSS to APXX</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>QVBTUw==</data>
 					<key>Replace</key>
@@ -41,7 +41,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X0RTTQ==</data>
 					<key>Replace</key>
@@ -51,7 +51,7 @@
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>RUhDMQ==</data>
 					<key>Replace</key>
@@ -61,7 +61,7 @@
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>RUhDMg==</data>
 					<key>Replace</key>
@@ -71,7 +71,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
@@ -81,7 +81,7 @@
 					<key>Comment</key>
 					<string>change XHC1 to XHC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>WEhDMQ==</data>
 					<key>Replace</key>
@@ -91,7 +91,7 @@
 					<key>Comment</key>
 					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>U0FUMA==</data>
 					<key>Replace</key>
@@ -101,7 +101,7 @@
 					<key>Comment</key>
 					<string>change LPC to LPCB</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>TFBDXw==</data>
 					<key>Replace</key>
@@ -111,7 +111,7 @@
 					<key>Comment</key>
 					<string>change _REG to XREG in EC0</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1JFRwKgCw==</data>
 					<key>Replace</key>
@@ -121,7 +121,7 @@
 					<key>Comment</key>
 					<string>ALS: change Method(RALS,0,S) XALS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>UkFMUwA=</data>
 					<key>Replace</key>
@@ -158,8 +158,7 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
-			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-RTC_Y-AWAC-N.aml</string>
+			<string>SSDT-6-PID1Ssdt.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -209,9 +208,9 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BAClPg==</data>
+				<data>AACbPg==</data>
 				<key>device-id</key>
-				<data>pT4AAA==</data>
+				<data>mz4AAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
@@ -422,7 +421,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>YES</string>
 	</dict>
 	<key>CPU</key>
 	<dict>
