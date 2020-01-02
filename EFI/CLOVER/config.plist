@@ -11,15 +11,15 @@
 			<key>Fixes</key>
 			<dict>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 				<key>FixUSB</key>
 				<false/>
 			</dict>
@@ -71,7 +71,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
@@ -81,7 +81,7 @@
 					<key>Comment</key>
 					<string>change XHC1 to XHC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>WEhDMQ==</data>
 					<key>Replace</key>
@@ -129,7 +129,7 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
+		<key>#DropTables</key>
 		<array>
 			<dict>
 				<key>Signature</key>
@@ -153,14 +153,19 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-RTC_Y-AWAC-N.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v</string>
+		<string>-v -x</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
@@ -204,9 +209,9 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>BAClPg==</data>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>pT4AAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
@@ -224,6 +229,12 @@
 				<key>framebuffer-con0-type</key>
 				<data>AAQAAA==</data>
 				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>enable-lspcon-support</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-has-lspcon</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-preferred-lspcon-mode</key>
 				<data>AQAAAA==</data>
 			</dict>
 		</dict>
@@ -296,9 +307,9 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<true/>
 		<key>KernelCpu</key>
@@ -306,18 +317,34 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
 				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>ILniAAAADzA=</data>
 				<key>Replace</key>
 				<data>ILniAAAAkJA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.15.x</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>D4KnAwAA</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
+				<key>Name</key>
+				<string>AppleIntelCFLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>D4IAAAAA</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -363,6 +390,8 @@
 				<data>SU9LaXM=</data>
 			</dict>
 		</array>
+		<key>FakeCPUID</key>
+		<string>0x0806EC</string>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -392,6 +421,13 @@
 	<dict>
 		<key>InjectKexts</key>
 		<string>Detect</string>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>Type</key>
+		<string>0x0705</string>
+		<key>UseARTFrequency</key>
+		<false/>
 	</dict>
 </dict>
 </plist>
