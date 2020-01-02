@@ -287,6 +287,8 @@
 		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Catalina</string>
+		<key>#ConsoleMode</key>
+		<string>1</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
