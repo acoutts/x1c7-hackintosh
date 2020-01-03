@@ -319,7 +319,7 @@
 				<key>Comment</key>
 				<string>Video card</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
@@ -338,22 +338,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -402,6 +386,22 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IntelMausi.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -601,7 +601,7 @@
 			<key>ConsoleBehaviourUi</key>
 			<string></string>
 			<key>ConsoleMode</key>
-			<string></string>
+			<string>Max</string>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideSelf</key>
@@ -624,9 +624,9 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>2151678018</integer>
 			<key>Target</key>
-			<integer>75</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -722,26 +722,17 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1</string>
+				<string>-v debug=0x100 keepsyms=1 -lilubetaall -liludbgall</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
-				<key>nvda_drv</key>
-				<data></data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 			</dict>
+			<key>New String</key>
+			<string></string>
 		</dict>
 		<key>Block</key>
-		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
-			</array>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array>
-				<string>boot-args</string>
-			</array>
-		</dict>
+		<dict/>
 		<key>LegacyEnable</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -806,8 +797,8 @@
 		<array>
 			<string>FwRuntimeServices.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>VBoxHfs.efi</string>
 			<string>VirtualSmc.efi</string>
+			<string>HFSPlus.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -816,7 +807,7 @@
 			<key>KeyMergeThreshold</key>
 			<integer>2</integer>
 			<key>KeySupport</key>
-			<false/>
+			<true/>
 			<key>KeySupportMode</key>
 			<string>Auto</string>
 			<key>KeySwap</key>
@@ -837,15 +828,15 @@
 			<key>AppleImageConversion</key>
 			<false/>
 			<key>AppleKeyMap</key>
-			<false/>
+			<true/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>ConsoleControl</key>
 			<true/>
 			<key>DataHub</key>
-			<false/>
+			<true/>
 			<key>DeviceProperties</key>
-			<false/>
+			<true/>
 			<key>FirmwareVolume</key>
 			<false/>
 			<key>HashServices</key>
@@ -858,13 +849,13 @@
 			<key>AvoidHighAlloc</key>
 			<false/>
 			<key>ClearScreenOnModeSwitch</key>
-			<false/>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
-			<false/>
+			<true/>
 			<key>IgnoreTextInGraphics</key>
-			<false/>
+			<true/>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectOnResChange</key>
