@@ -425,22 +425,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>VoodooTSCSync.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooTSCSync</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -459,9 +443,9 @@
 		</array>
 		<key>Emulate</key>
 		<dict>
-			<key>Cpuid1Data</key>
+			<key>#Cpuid1Data</key>
 			<data>7AYIAA==</data>
-			<key>Cpuid1Mask</key>
+			<key>#Cpuid1Mask</key>
 			<data>AAAAAA==</data>
 		</dict>
 		<key>Patch</key>
@@ -636,11 +620,11 @@
 		<key>Debug</key>
 		<dict>
 			<key>DisableWatchDog</key>
-			<true/>
+			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2151678018</integer>
+			<integer>2147483714</integer>
 			<key>Target</key>
 			<integer>67</integer>
 		</dict>
@@ -666,7 +650,7 @@
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
-			<integer>2147483648</integer>
+			<integer>0</integer>
 			<key>RequireSignature</key>
 			<false/>
 			<key>RequireVault</key>
@@ -738,7 +722,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 -lilubetaall -liludbgall smcdebug=0x100-igfxvesa  -igfxvesa</string>
+				<string>-v keepsyms=1 -lilubetaall -liludbgall smcdebug=0x100-igfxvesa  -igfxvesa</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -850,7 +834,7 @@
 			<key>ConsoleControl</key>
 			<true/>
 			<key>DataHub</key>
-			<true/>
+			<false/>
 			<key>DeviceProperties</key>
 			<true/>
 			<key>FirmwareVolume</key>
