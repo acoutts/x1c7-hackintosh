@@ -229,23 +229,23 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
-			<true/>
+			<false/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
-			<true/>
+			<false/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<true/>
+			<false/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectCsmRegion</key>
-			<false/>
-			<key>ProvideCustomSlide</key>
 			<true/>
+			<key>ProvideCustomSlide</key>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>ShrinkMemoryMap</key>
@@ -450,9 +450,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>7AYIAA==</data>
+			<data>7AYIAAAAAAAAAAAA</data>
 			<key>Cpuid1Mask</key>
-			<data>/////w==</data>
+			<data>/////wAAAAAAAAAAAAAAAA==</data>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -572,11 +572,11 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
-			<key>AppleXcpmCfgLock</key>
-			<true/>
-			<key>AppleXcpmExtraMsrs</key>
 			<false/>
+			<key>AppleXcpmCfgLock</key>
+			<false/>
+			<key>AppleXcpmExtraMsrs</key>
+			<true/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -603,9 +603,9 @@
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
-			<string>Graphics</string>
+			<string></string>
 			<key>ConsoleBehaviourUi</key>
-			<string>Text</string>
+			<string></string>
 			<key>ConsoleMode</key>
 			<string>Max</string>
 			<key>HibernateMode</key>
@@ -626,13 +626,13 @@
 		<key>Debug</key>
 		<dict>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>0</integer>
+			<integer>2147483714</integer>
 			<key>Target</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -656,7 +656,7 @@
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
-			<integer>0</integer>
+			<integer>2147483648</integer>
 			<key>RequireSignature</key>
 			<false/>
 			<key>RequireVault</key>
@@ -728,7 +728,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 -lilubetaall -liludbgall smcdebug=0x100-igfxvesa  -igfxvesa</string>
+				<string>-v keepsyms=1 -lilubetaall -liludbgall smcdebug=0x100 -igfxvesa  -igfxvesa -no_compat_check</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
